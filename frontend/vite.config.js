@@ -7,7 +7,7 @@ export default defineConfig({
 	server: {
 		proxy: {
 			"/api": {
-				target: "http://netflix-clone-sksharma.vercel.app",
+				target: "http://netflix-clone-backend-sksharma.vercel.app",
 			},
 		},
 	},
